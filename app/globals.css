@@ -2,3 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+    @apply antialiased bg-white;
+}
+
+@layer utilities {
+    .flexCenter {
+      display: flex;
+     justify-content: center;
+        align-items: center;
+    }
+    .flexBetween {
+      display: flex;
+     justify-content: space-between;
+        align-items: center;
+    }
+    .borderCircle{
+      background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='1000' ry='1000' stroke='white' stroke-width='3' stroke-dasharray='3%25%2c 4%25' stroke-dashoffset='200' stroke-linecap='square'/%3e%3c/svg%3e");
+border-radius: 100px;
+
+    }
+
+  }
