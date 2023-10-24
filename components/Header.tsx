@@ -10,18 +10,18 @@ const navItems = [
 
 const Header: React.FC = () => {
 	return (
-		<header className='flexBetween px-[10%] w-full relative py-5'>
+		<header className='flexBetween px-[7%] w-full relative py-5'>
 			<div className='w-[20%] '>
 				<Image
 					width={150}
 					height={150}
 					src={'/logo.png'}
 					alt='logo'
-					className='w-14'
+					className='w-16'
 				/>
 			</div>
 			<nav className='w-[60%] '>
-				<ul className='flexCenter flex-row gap-10'>
+				<ul className='flexCenter flex-row gap-10 text-xl'>
 					{navItems.map((item) => (
 						<li key={item.name}>
 							<Link href={item.path}>{item.name}</Link>
@@ -30,7 +30,7 @@ const Header: React.FC = () => {
 				</ul>
 			</nav>
 			<div className='w-[20%] flex justify-end'>
-				<button className='bg-black  text-white rounded-full px-6 py-4'>
+				<button className='bg-black  text-white rounded-full px-8 py-4'>
 					Download app
 				</button>
 			</div>

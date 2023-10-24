@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 const Hero: React.FC = () => {
 	return (
-		<section className='bg-purple-100 flex w-[95%] rounded-2xl relative items-center py-[10%]'>
-			<div className='w-1/2 pl-[10%]'>
+		<section className='bg-bgPurple-100 flex w-[95%] rounded-2xl relative items-center py-[10%]'>
+			<div className='w-1/2 pl-[5%]'>
 				<h4 className='mb-6'>Ahead app</h4>
 				<h2 className='text-[5rem] leading-none font-bold '>
 					Master your life by mastering emotions
@@ -11,11 +11,11 @@ const Hero: React.FC = () => {
 			</div>
 			<div className='flex items-center justify-center w-1/2 relative'>
 				<div
-					className='absolute z-[1] aspect-square h-auto w-[19rem]  bg-purple-200 
+					className='absolute z-[1] aspect-square h-auto w-[23rem]  bg-bgPurple-200 
                 rounded-full'
 				/>
 				<div
-					className='absolute z-[1] aspect-square h-auto w-[30rem] 
+					className='absolute z-[1] aspect-square h-auto w-[35rem] 
                 rounded-full  borderCircle '
 				/>
 				<Image
@@ -23,14 +23,14 @@ const Hero: React.FC = () => {
 					width={700}
 					src={'/phone.png'}
 					alt='phone'
-					className='w-1/5 z-10 ml-[10%]'
+					className='w-1/4 z-10 ml-[10%]'
 				/>
 				<Image
 					height={700}
 					width={700}
 					src={'/phone-card.png'}
 					alt='phone'
-					className='w-[17%] z-10 absolute top-[31%] left-[29%]'
+					className='w-[21%] z-10 absolute top-[31%] left-[23%]'
 				/>
 			</div>
 		</section>
