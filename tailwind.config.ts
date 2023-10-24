@@ -9,11 +9,27 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: '#FF6363',
-        secondary: {
-          100: '#E2E2D5',
-          200: '#888883',
+        bgPurple:{
+          100:"#E5E0FD",
+          200: "#DED4F8",
+          300:"#BDAAF8",
+          400: "#6F4AF3",
+          500: "#6E49F2",
+        } ,
+        bgCream:{
+          
+          100: "#FEFBEF",
+          200: "#FFF1DB",
         },
+        bgNude:{
+          100: "#FDF7F3",
+          200: "#FCEBE2",
+        },
+        bgBlue:{
+          50: "#F4F9F9",
+          100:"#EEF9FF",
+        }
+
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
