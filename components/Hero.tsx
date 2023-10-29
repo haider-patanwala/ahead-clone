@@ -2,9 +2,9 @@ import Image from 'next/image';
 
 const Hero: React.FC = () => {
 	return (
-		<section className='bg-bgPurple-100 flex w-[95%] rounded-2xl relative items-center py-[10%]'>
+		<section className='bg-bgPurple-100 flex w-[95%] h-[80vh] rounded-[2.5rem] relative items-center py-[10%]'>
 			<div className='w-1/2 pl-[5%]'>
-				<h4 className='mb-6'>Ahead app</h4>
+				<h4 className='mb-6 2xl:text-[1.5rem] font-medium'>Ahead app</h4>
 				<h2 className='text-[5rem] leading-none font-bold '>
 					Master your life by mastering emotions
 				</h2>

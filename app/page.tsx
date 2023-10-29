@@ -1,5 +1,6 @@
 import EQ from '@/components/EQ';
 import Hero from '@/components/Hero';
+import MeetApp from '@/components/MeetApp';
 import SignsCards from '@/components/SignsCards';
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
 			<Hero />
 			<EQ />
 			<SignsCards />
+			<MeetApp />
 		</main>
 	);
 }
